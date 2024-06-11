@@ -1,1 +1,1 @@
-package booking_system
+package main
