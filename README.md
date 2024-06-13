@@ -6,7 +6,7 @@ This code implements a small problem of booking systems: seat booking.
 How does it work?
 - There are open sockets through which a number of users can ask for seat booking.
 - Seats are booked in another thread and it each booking thread launches a goroutine to get the payment, if payment is done within 5 seconds, seat is booked, otherwise released. Also, the paymet service is just a dummy service.
-- Seats and the whole seating arrangement is managed using an sql db.
+- Bookings are managed in mysql and locking is managed using redis.
 
 ### Todos:
 - [ ] Run a docker sql container : create a script to bootstrap docker.
