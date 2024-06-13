@@ -12,5 +12,5 @@ How does it work?
 - [ ] Run a docker sql container : create a script to bootstrap docker.
 - [x] Create connection to sql
 - [x] For a v0 of the project, store seat and seating info in a sql db table
-- [ ] create the basic flow: a user starts the booking flow and the system waits 5 seconds for the payment, if payment is not done, the abort booking
+- [x] create the basic flow: a user starts the booking flow and the system waits 5 seconds for the payment, if payment is not done, the abort booking
 - [ ] create a load tester script: 100 users/second booking
